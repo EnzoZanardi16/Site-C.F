@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background-color: white 
+}
+.cabeçalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px;
+}
+.logoequipe{
+    display: flex;
+    border-radius: 100px;
+    border-color: red;
+}
+.titulo_Cadrasto{
+display: flex;
+justify-content: space-around;
+}
+.Loginletra{
+    color: red;    
+}
+.letras{
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 24px;
+}
+.Login{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 24px;
+    
+
+}
+.input{
+    display: flex;
+    line-height: 40px;
+    font-size: 20px;
+    background-color: lightgray;
+    border-radius: 5px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    background-color: #f4f4f4;
+}
+.checkbox{
+    display: flex;
+    align-items: center;
+    
+}
+
+.checkbox1{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #ccc;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    background-color: #f4f4f4;
+    align-items: center;
+    margin-right: 10px; 
+}
+footer{
+    display: flex;
+    padding: 24px;
+    flex-direction: column;
+    line-height: 50px;
+}
+.Cadastrar{
+    display: flex;
+    justify-content: center;
+    width: 343px;
+    height: 51px;
+    font-size: 35px;
+}
+.Cadastrarletra{
+    display: flex;
+    justify-content: center;
+    width: 343px;
+    height: 51px;
+    background-color: red;
+    color: black; 
+    border-radius: 100px; 
+}
+.EsqueceuSenha{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    color: red; 
+}
