@@ -1,0 +1,142 @@
+*{
+   margin: 0px; 
+   padding: 0px;
+   font-family: verdana;
+   font-size: 14px;
+   list-style: none;
+   text-decoration: none;
+}
+body{
+    background-color: black;
+    width: 100%;
+
+}
+header{
+    background-color: purple;
+    height: 220px;
+    width: 100%;
+}
+header div{
+    width: 100%;
+    text-align: center;
+    font-size: 46px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+nav{
+    background-color: lightpink;
+    height: 80px;
+    width: 90%;
+    margin: 0px auto;
+}
+nav ul{
+display: flex; 
+align-items: center;
+justify-content: space-around;
+height: 100%;
+width: 100%;
+
+}
+nav ul li{
+    width: 180px;
+    height: 50%;
+    border: 0.5px solid black; 
+}
+nav ul li a{
+    font-size: 20px;
+ color: aqua;
+ display: flex;
+ justify-content: center;
+ width: 100%;
+ height: 100%;
+ font-size: 18px;
+}
+nav ul li a:hover{
+    transition: all;
+    transition-duration: 300ms;
+    transition-delay:100ms;
+    transform:scale(1.2,1.2);
+    background-color: aliceblue;
+    color: purple;
+}
+main{
+    background-color: gray;
+    height: auto;
+    min-height: 500px;
+    width: 100%;
+    margin: 0px auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+section{
+    border: 1px solid black;
+    width: 90%;
+    height: 600px;
+    margin: 50px auto 50px auto;
+}
+#banner{
+    height: auto;
+}
+#banner figure{
+    width: 100%;
+}
+#banner figure img{
+    width: 100%;
+}
+#verticais{
+    height: auto;
+}
+#verticais article{
+display: flex; 
+align-items: row;
+justify-content: space-around;
+}
+#verticais div figure img{
+
+    max-width: 200px;
+    margin: 4px;
+    
+}
+#verticais h1{
+    color: violet;
+    margin-top: 20px;
+}
+#verticais article div{
+    border: 1px solid black;
+    margin: 3px;
+    max-width:210px ;
+}
+#produtos{
+display: flex;
+justify-content: space-around;
+padding: 10px;
+}
+#produtos div figure img{
+
+height: 250px; 
+max-height: 50%;
+border: 2px solid black;
+}
+#produtos div button{
+    width: 100%;
+    height: 45px;
+    background-color: bisque;
+    border: 2px dotted black;
+    border-radius: 20px;
+    box-shadow: 3px 2px 5px;
+
+}
+#produtos div button:hover{
+    transition: all;
+    transition-duration: 300ms;
+    transition-delay:100ms;
+    transform:scale(1.2,1.2);
+    background-color: aliceblue;
+}
+footer{
+    background-color: purple;
+    height: 50px;
+    width: 100%;
+}
